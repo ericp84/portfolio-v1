@@ -4,6 +4,9 @@ const logo = document.querySelector('.logo');
 const medias = document.querySelectorAll('.bulle');
 const l1 = document.querySelector('.l1');
 const l2 = document.querySelector('.l2');
+const box1 = document.querySelectorAll('.box');
+const logo1 = document.querySelectorAll('.logo1');
+const video = document.querySelector('.video-demo');
 
 window.addEventListener('load', () => {
 
@@ -13,6 +16,9 @@ window.addEventListener('load', () => {
     .staggerFrom(titreSpans, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
     .staggerFrom(btns, 1, {opacity: 0, ease: "power2.out"}, 0.3, '-=1')
     .from(l1, 1, {width: 0, ease: "power2.out"}, '-=2')
+    .from(box1, 1, {bottom: -200, width: 0, ease: "power2.out"}, '-=2')
+    .staggerFrom(logo1, 1, {top: -200, width: 0,opacity: 0, ease: "bounce.out"}, '-=2')
+    .staggerFrom(video, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.5)
     .from(l2, 1, {width: 0, ease: "power2.out"}, '-=2')
     .from(logo, 0.4, {transform: "scale(0)", ease: "power2.out"}, '-=2')
     .staggerFrom(medias, 1, {right: -200, ease: "power2.out"}, 0.3, '-=1');

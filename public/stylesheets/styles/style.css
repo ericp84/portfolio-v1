@@ -10,6 +10,7 @@ body {
     width: 100vw;
     position: relative;
     overflow-x: hidden;
+    overflow: hidden;
 }
 
 .container-first {
@@ -129,7 +130,7 @@ h1 span {
     display: flex;
 }
 
-.box {
+.boxes {
     list-style-type: none;
     position: absolute;
     right: 3.3%;
@@ -140,7 +141,7 @@ h1 span {
     
 }
 
-.box1 {
+.box {
     width: 55px;
     height: 55px;
     border-radius: 50%;
@@ -158,169 +159,6 @@ h1 span {
     border-color: #3E1E68;
 }
 
-.box2 {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 1px solid #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    background: #f1f1f1;
-    cursor: pointer;
-    position: relative;
-    background-color: red;
-    margin-right: 10px;
-    border-width: 35px;
-    border-color: #3E1E68;
-
-}
-
-.box3 {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 1px solid #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    background: #f1f1f1;
-    cursor: pointer;
-    position: relative;
-    background-color: green;
-    margin-right: 10px;
-    border-width: 35px;
-    border-color: #3E1E68;
-
-}
-.box4 {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 1px solid #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    background: #f1f1f1;
-    cursor: pointer;
-    position: relative;
-    background-color: green;
-    margin-right: 10px;
-    border-width: 35px;
-    border-color: #3E1E68;
-
-}
-.box5 {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 1px solid #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    background: #f1f1f1;
-    cursor: pointer;
-    position: relative;
-    background-color: green;
-    margin-right: 10px;
-    border-width: 35px;
-    border-color: #3E1E68;
-
-}
-.box6 {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 1px solid #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    background: #f1f1f1;
-    cursor: pointer;
-    position: relative;
-    background-color: green;
-    margin-right: 10px;
-    border-width: 35px;
-    border-color: #3E1E68;
-
-}
-.box7 {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 1px solid #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    background: #f1f1f1;
-    cursor: pointer;
-    position: relative;
-    background-color: green;
-    margin-right: 10px;
-    border-width: 35px;
-    border-color: #3E1E68;
-
-}
-.box8 {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 1px solid #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    background: #f1f1f1;
-    cursor: pointer;
-    position: relative;
-    background-color: white;
-    margin-right: 10px;
-    border-width: 35px;
-    border-color: #3E1E68;
-
-}
-.box9 {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 1px solid #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    background: #f1f1f1;
-    cursor: pointer;
-    position: relative;
-    background-color: white;
-    margin-right: 10px;
-    border-width: 35px;
-    border-color: #3E1E68;
-
-}
-.box10 {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 1px solid #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    background: #f1f1f1;
-    cursor: pointer;
-    position: relative;
-    background-color: green;
-    margin-right: 10px;
-    border-width: 35px;
-    border-color: #3E1E68;
-
-}
 #link:hover {
     transition: all 0.5s ease-in-out;
     border-color: #ffffff;

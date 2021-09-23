@@ -61,6 +61,10 @@ h1 span {
     left: 5%;
     font-size: 25px;
 }
+.desc {
+  color: rgb(206, 148, 191);
+  font-weight: bold;
+}
 .video {
   position: relative;
   justify-content: flex-end;

@@ -59,7 +59,11 @@ h1 span {
     position: absolute;
     top: 30%;
     left: 5%;
-    font-size: 22px;
+    font-size: 25px;
+}
+.desc {
+  color: #000000;
+  font-weight: bold;
 }
 .video {
   position: relative;

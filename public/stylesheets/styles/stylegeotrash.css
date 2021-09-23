@@ -71,6 +71,9 @@ h1 span {
     height: 55%;
     
 }
+#native{
+  background-color: #ffffff;
+}
 .video-demo {
     border-radius: 30px ;
     width: 47%;

@@ -34,10 +34,10 @@ h1 span {
     height: 60px;
     border-radius: 50%;
 }
-.logo2 {
+#redux {
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+    border-radius: 0%;
 }
 .logo3 {
     width: 60px;

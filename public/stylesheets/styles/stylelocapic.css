@@ -35,26 +35,7 @@ h1 span {
     border-radius: 50%;
     background-color: #ffffff;
 }
-.logo2 {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-.logo3 {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-.logo4 {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-.logo5 {
-    width: 60px;
-    height: 60px;
-    border-radius: 0%;
-}
+
 #redux {
   width: 60px;
   height: 60px;

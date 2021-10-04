@@ -85,8 +85,8 @@ h1 span {
 }
 .video-demo {
     border-radius: 15px ;
-    width: 49%;
-    height: 100%;
+    width: 47%;
+    height: 95.5%;
     background-color: rgb(255, 255, 255);
     border: 2px black solid;
     box-shadow: 15px 10px 5px #3d3d3d;
@@ -103,35 +103,35 @@ h1 span {
     width: 200px;
     height: 200px;
     left: -100px;
-    bottom: -100px;
+    bottom: 500px;
   }
   
   .medium{
     width: 400px;
     height: 400px;
     left: -200px;
-    bottom: -200px;
+    bottom: 400px;
   }
   
   .large{
     width: 600px;
     height: 600px;
     left: -300px;
-    bottom: -300px;
+    bottom: 300px;
   }
   
   .xlarge{
     width: 800px;
     height: 800px;
     left: -400px;
-    bottom: -400px;
+    bottom: 200px;
   }
   
   .xxlarge{
     width: 1000px;
     height: 1000px;
     left: -500px;
-    bottom: -500px;
+    bottom: 100px;
   }
   
   .shade1{

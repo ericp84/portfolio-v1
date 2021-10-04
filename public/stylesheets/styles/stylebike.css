@@ -11,7 +11,7 @@ body {
     overflow-x: hidden;
     display: flex;
     color:rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(219, 210, 182);
 
     overflow-y: hidden;
 }
@@ -51,8 +51,11 @@ h1 span {
     left: 5%;
     font-size: 25px;
 }
+p {
+  color: #ffffff;
+}
 .desc {
-  color:#530c0c;
+  color:#bd3d3d;
   font-weight: bold;
 }
 .video {
@@ -88,35 +91,35 @@ h1 span {
     width: 200px;
     height: 200px;
     left: -100px;
-    bottom: -100px;
+    bottom: 500px;
   }
   
   .medium{
     width: 400px;
     height: 400px;
     left: -200px;
-    bottom: -200px;
+    bottom: 400px;
   }
   
   .large{
     width: 600px;
     height: 600px;
     left: -300px;
-    bottom: -300px;
+    bottom: 300px;
   }
   
   .xlarge{
     width: 800px;
     height: 800px;
     left: -400px;
-    bottom: -400px;
+    bottom: 200px;
   }
   
   .xxlarge{
     width: 1000px;
     height: 1000px;
     left: -500px;
-    bottom: -500px;
+    bottom: 100px;
   }
   
   .shade1{

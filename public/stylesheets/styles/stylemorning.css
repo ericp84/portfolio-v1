@@ -11,7 +11,7 @@ body {
     overflow-x: hidden;
     display: flex;
     color:rgb(255, 255, 255);
-    background-color: rgb(99, 17, 175);
+    background-color: rgb(156, 77, 230);
 
     overflow-y: hidden;
 }
@@ -67,7 +67,7 @@ h1 span {
     font-size: 25px;
 }
 .desc {
-  color: rgb(206, 148, 191);
+  color: rgb(59, 1, 45);
   font-weight: bold;
 }
 .video {
@@ -101,35 +101,35 @@ h1 span {
     width: 200px;
     height: 200px;
     left: -100px;
-    bottom: -100px;
+    bottom: 500px;
   }
   
   .medium{
     width: 400px;
     height: 400px;
     left: -200px;
-    bottom: -200px;
+    bottom: 400px;
   }
   
   .large{
     width: 600px;
     height: 600px;
     left: -300px;
-    bottom: -300px;
+    bottom: 300px;
   }
   
   .xlarge{
     width: 800px;
     height: 800px;
     left: -400px;
-    bottom: -400px;
+    bottom: 200px;
   }
   
   .xxlarge{
     width: 1000px;
     height: 1000px;
     left: -500px;
-    bottom: -500px;
+    bottom: 100px;
   }
   
   .shade1{

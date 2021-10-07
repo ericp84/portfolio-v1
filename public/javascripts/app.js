@@ -1,4 +1,6 @@
 const titreSpans = document.querySelectorAll('h1 span');
+const titreSpans2 = document.querySelectorAll('h2 span');
+const titreSpans3 = document.querySelectorAll('h1 titre');
 const btns = document.querySelectorAll('.btn-first');
 const logo = document.querySelector('.logo');
 const medias = document.querySelectorAll('.bulle');
@@ -58,7 +60,9 @@ window.addEventListener('load', () => {
     const TL = gsap.timeline({paused: true});
 
     TL
-    .staggerFrom(titreSpans, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
+    .staggerFrom(titreSpans, 1, {top: -150, opacity: 0, ease: "power2.out"}, 0.3)
+    .staggerFrom(titreSpans2, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
+    .staggerFrom(titreSpans3, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
     .staggerFrom(btns, 1, {opacity: 0, ease: "power2.out"}, 0.3, '-=1')
     .from(l1, 1, {width: 0, ease: "power2.out"}, '-=2')
     .staggerFrom(box1, 1, {bottom: -200, width: 0, ease: "power2.out"}, 0.1, '-=2')
@@ -66,7 +70,7 @@ window.addEventListener('load', () => {
     .staggerFrom(video, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.5)
     .from(l2, 1, {width: 0, ease: "power2.out"}, '-=2')
     .from(logo, 0.4, {transform: "scale(0)", ease: "power2.out"}, '-=2')
-    .staggerFrom(medias, 1, {right: -200, ease: "power2.out"}, 0.2, '-=1');
+    .staggerFrom(medias, 1, {right: -200, ease: "power2.out"}, 0.2, '-=4');
 
     
     

@@ -7,31 +7,50 @@
 body {
     width: 100vw;
     height: 100vh;
-    position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
     display: flex;
     color:rgb(2, 1, 1);
     background-color: rgb(231, 219, 108);
+    overflow: scroll;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+/* .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
-    overflow-y: hidden;
+.descr-pro  {
+  font-size: 100%;
+  font-family: 'Oswald', sans-serif;
+}
+li {
+  font-family: 'Oswald', sans-serif;
 }
 h1 {
     text-transform: uppercase;
-    font-size: 90px;
+    font-size: 500%;
     color: #000000;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    margin-top:20%;
 }
-h1 span {
-    position: relative;
-}
-.container-first {
-    position: relative;
-    top: 20%;
-    left: 5%;
-}
+
 .logo1 {
-    width: 60px;
-    height: 60px;
+    position: relative;
+    top:-30%;
+    right: 6%;
+    height: 10%;
+    width: 10%;
+    max-width: 60px;
+    max-height: 60px;
     border-radius: 50%;
 }
 .logo2 {
@@ -47,16 +66,13 @@ h1 span {
     font-size: 25px;
 }
 .desc {
-  color:#ffffff;
+  color:#272525;
   font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
 .video {
-  position: relative;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin-bottom: 10%;
+  margin-bottom: 30%;
   margin-left: 25%;
-  margin-top: 8%;
   width: 50%;
   height: 70%;
   

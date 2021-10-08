@@ -1,91 +1,74 @@
-*  {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    overflow-x: hidden;
     display: flex;
-    color:rgb(0, 0, 0);
-    background-color: rgb(76, 159, 228);
-
-    overflow-y: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(45, 127, 221);
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 h1 {
-    text-transform: uppercase;
-    font-size: 90px;
-    color: #ffffff;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-h1 span {
     position: relative;
+    color: aliceblue;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 400%;
 }
-.container-first {
-    position: relative;
-    top: 20%;
-    left: 5%;
+.container-fluid {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 .logo1 {
-    width: 60px;
+    position: relative;
     height: 60px;
-    border-radius: 50%;
-}
-.logo2 {
     width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-.logo3 {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-.logo4 {
-    width: 60px;
-    height: 60px;
     border-radius: 50%;
 }
 
-.text {
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    font-size: 25px;
+.description-projet {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
-.desc {
-  color:#66430d;
-  font-weight: bold;
-}
-.video {
-  position: relative;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin-bottom: 10%;
-  margin-left: 15%;
-  margin-top: 8%;
-  width: 50%;
-  height: 70%;
-  
+.image {
+    position: relative;
+    height: 35%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
 }
 .video-demo {
-    border-radius: 15px ;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    border: 2px black solid;
-    box-shadow: 15px 10px 5px #3d3d3d;
+    position: relative;
+    height: 50%;
+    width: 50%;
+    max-width: 80%;
+    max-height: 80%;
 }
+
 .circle{
     position: absolute;
     border-radius: 50%;
-    background: rgb(238, 208, 74);
+    background: rgb(255, 230, 1);
     animation: ripple 15s infinite;
   }
-
+  
   
   .small{
     width: 200px;
@@ -154,4 +137,3 @@ h1 span {
       transform: scale(0.8);
     }
   }
-  

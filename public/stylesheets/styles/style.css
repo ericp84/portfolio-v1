@@ -15,7 +15,6 @@ body {
     width: 100vw;
     position: relative;
     overflow-x: hidden;
-    overflow: scroll;
     overflow-y: scroll;
 }
 

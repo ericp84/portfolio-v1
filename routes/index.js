@@ -38,5 +38,8 @@ router.get('/faceup', function (req, res, next) {
 router.get('/geotrash', function (req, res, next) {
   res.render('geotrash', {title: 'portfolio'})
 })
+router.get('/try', function (req, res, next) {
+  res.render('try', {title: 'portfolio'})
+})
 
 module.exports = router;
